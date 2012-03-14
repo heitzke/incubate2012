@@ -23,15 +23,15 @@
     %script{:src => "/javascripts/libs/selectivizr-min.js"}
     
   %body{:class => "#{@bodyclass}"}
-    #top_bar
-    %header
-      .fixed_content
-        %h1= @title
+    #content
+      %header
+        %h1.hide-text
+          = @title
         .logo
-          = link_to 'Incubate!(bang)', '/'
+          = link_to 'Incubate!(bang)', '/', :class => 'hide-text'
         #navigation
-    #main-content
-      = yield
+        .fixed_content
+          = yield
     %footer
         
     -# scripts concatenated and minified

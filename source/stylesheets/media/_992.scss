@@ -1,15 +1,5 @@
 // 992 styles ----------------------------------------------------------------
 
-.fixed_content {
-  width:965px;
-  overflow:hidden;
-  margin: 0 auto;
-  #navigation {
-    ul {
-      li {
-        display: inline;
-        padding: 2px 15px;
-      }
-    }
-  }
+#content {
+  width: 965px;
 }

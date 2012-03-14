@@ -197,5 +197,30 @@ q:before, q:after {
     font-style: normal;
 }
 
-
-
+html {
+  height: 100%;
+  width: 100%;
+  body {
+    @include linear-gradient(#f3f6f7, #d5e3ea);
+    height: 100%;
+    width: 100%;
+    #content {
+      @include linear-gradient(#f5f7f8, #dfe9ee);
+      overflow:hidden;
+      margin: 0 auto;
+      height: 100%;
+    }
+  }
+}
+.logo a {
+  display: inline-block;
+  background:url(/images/logo.png) 0 0 no-repeat;
+  width: 306px;
+  height: 70px;
+  margin-top: 10px;
+}
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
