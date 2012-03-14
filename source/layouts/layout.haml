@@ -29,9 +29,16 @@
           = @title
         .logo
           = link_to 'Incubate!(bang)', '/', :class => 'hide-text'
-        #navigation
+        %nav
+          %ul
+            %li= link_to 'Home', '/'
+            %li= link_to 'About', '/'
+            %li= link_to 'Apply', '/'
+            %li= link_to 'Faq', '/'
+            %li= link_to 'Contact', '/'
         .fixed_content
           = yield
+      .cityscape
     %footer
         
     -# scripts concatenated and minified

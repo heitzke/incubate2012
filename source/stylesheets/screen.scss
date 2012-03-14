@@ -212,6 +212,22 @@ html {
     }
   }
 }
+.cityscape {
+  background:url(/images/cityscape.png) bottom center no-repeat;
+  position: absolute;
+  bottom: 54px;
+  display: block;
+  height: 191px;
+}
+footer {
+  display:block;
+  height: 58px;
+  width: 100%;
+  background:url(/images/footer_striped.jpg) bottom center no-repeat;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
 .logo a {
   display: inline-block;
   background:url(/images/logo.png) 0 0 no-repeat;
