@@ -8,8 +8,14 @@
 }
 
 nav {
-  li {
-    padding: 0 15px;
+  ul {
+    li {
+      padding: 4px 10px;
+      margin: 5px 0;
+      a {
+        padding: 3px 10px;
+      }
+    }
   }
 }
 

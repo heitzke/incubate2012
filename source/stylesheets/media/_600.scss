@@ -18,6 +18,20 @@ nav {
   width: auto;
   float: right;
   width: 261px;
+  ul {
+    li {
+      padding: 0 4px 4px 4px;
+      a {
+        background: none;
+        border: none;
+        box-shadow: none;
+        &:hover {
+          background: none;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 h2.main-text {
   margin: 25px 0 20px 0;
@@ -43,4 +57,11 @@ h2.main-text {
     vertical-align: top;
     width: 88%;
   }
+}
+h3 {
+  font-family: 'cabin', sans-serif;
+  color: #11a49d;
+  margin: 0 0 5px 0;
+  font-size: 1.5em;
+  font-weight: lighter;
 }

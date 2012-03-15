@@ -253,7 +253,8 @@ footer {
 nav {
   margin-bottom: 15px;
   ul {
-    li {
+    margin-bottom: 0;
+    li {      
       display: inline-block;
       position: relative;
       a {
@@ -262,7 +263,6 @@ nav {
         color: #74858a;
         font-family: 'cabin', 'helvetica', sans-serif;
         &:hover {
-          text-decoration: underline;
           color: #3d4c50;
         }
       }
@@ -270,6 +270,7 @@ nav {
   }
 }
 h2.main-text {
+  word-wrap:break-word;
   .development {
     font-family: 'holtwood one sc', serif;
     color: #596c72;
@@ -295,14 +296,21 @@ h2.main-text {
     font-weight: lighter;
   }
 }
+h2.title {
+  color: #15a29b;
+  font-size:2em;
+  font-family: 'cabin', sans-serif;
+  margin: 0 0 3% 0;
+}
 img {
   max-width: 100%;
 }
 h3 {
   font-family: 'cabin', sans-serif;
   color: #11a49d;
-  font-size: 1.2em;
   margin: 0 0 5px 0;
+  font-size: 1.3em;
+  font-weight: lighter;
 }
 p {
   color: #74858a;
@@ -313,4 +321,31 @@ p {
 text-indent: 100%;
 white-space: nowrap;
 overflow: hidden;
+}
+
+ul {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 5px 0 10px 0;
+    color:#002B36;
+    font-size: 1.3em;
+    ul {
+      list-style: disc;
+      color:#74858A;
+      li {
+        margin-left: 25px;
+        color:#74858A;
+        font-size: .8em;
+        
+        ul {
+          list-style: disc;
+          li {
+            font-size: .9em;
+          }
+        }
+      }
+    }
+  }
 }
