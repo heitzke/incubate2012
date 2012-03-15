@@ -1,8 +1,40 @@
 // 480 styles ----------------------------------------------------------------
 
-#content {
+#content-bg {
   width: 480px;
 }
 .cityscape {
   width: 480px;
+}
+
+nav {
+  li {
+    padding: 0 15px;
+  }
+}
+
+h2.main-text {
+  margin: 0 0 20px 0;
+  .development {
+    font-size:1.55em;
+  }
+  .salary {
+    font-size: 1.93em;
+    margin-left: -4px;
+  }
+  .ampersand {
+    font-size: 3.5em;
+    vertical-align: top;
+  }
+  .expenses {
+  }
+  .expenses.first {
+    font-size:1.84em;
+  }
+  .expenses.second {
+    font-size:1.5em;
+    display: inline-block;
+    vertical-align: top;
+    width: 87%;
+  }
 }

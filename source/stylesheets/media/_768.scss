@@ -1,8 +1,63 @@
 // 768 styles ----------------------------------------------------------------
 
-#content {
+#content-bg {
   width: 768px;
+}
+.fixed_content {
+  width: 97%;
+  padding-left: 0;
+  margin: 0 auto;
 }
 .cityscape {
   width: 768px;
+}
+
+nav {
+  width: auto;
+  margin: 14px 0 0 0;
+  li {
+    font-size: 1.3em;
+  }
+}
+h2.main-text {
+  margin: 25px 0 20px 0;
+  .development {
+    font-size:2.6em;
+  }
+  .salary {
+    font-size: 3.2em;
+    margin-left: -4px;
+  }
+  .ampersand {
+    font-size: 2.5em;
+    vertical-align: top;
+  }
+  .expenses.first {
+    font-size: 1.2em;
+    border-bottom: 2px solid #acbfc4;
+    vertical-align: top;
+    padding-bottom: 6px;
+    display: inline-block;
+  }
+  .expenses.second {
+    font-size: 1.2em;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    border-bottom: 2px solid #acbfc4;
+    padding-bottom: 6px;
+  }
+}
+
+.content-left {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+.content-right {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  margin-left: 2%;
 }

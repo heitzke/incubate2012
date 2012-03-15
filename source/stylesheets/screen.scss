@@ -200,24 +200,38 @@ q:before, q:after {
 html {
   height: 100%;
   width: 100%;
+  background: #fff;
   body {
     @include linear-gradient(#f3f6f7, #d5e3ea);
-    height: 100%;
+    height: auto;
     width: 100%;
-    #content {
+    font-family: sans-serif;
+    #content-bg {
       @include linear-gradient(#f5f7f8, #dfe9ee);
-      overflow:hidden;
       margin: 0 auto;
+      height: auto !important;
       height: 100%;
+      #content {
+        padding-bottom: 191px;
+        background:url(/images/cityscape.png) bottom center no-repeat;
+        
+      }
     }
   }
 }
+header, .fixed_content {
+  z-index: 5;
+  position:relative;
+}
+.push {
+  height: 191px;
+}
 .cityscape {
   background:url(/images/cityscape.png) bottom center no-repeat;
-  position: absolute;
   bottom: 54px;
   display: block;
   height: 191px;
+  z-index: 1;
 }
 footer {
   display:block;
@@ -225,15 +239,72 @@ footer {
   width: 100%;
   background:url(/images/footer_striped.jpg) bottom center no-repeat;
   background-color: #fff;
-  position: absolute;
-  bottom: 0;
 }
-.logo a {
+
+.logo {
+  a {
   display: inline-block;
   background:url(/images/logo.png) 0 0 no-repeat;
   width: 306px;
   height: 70px;
   margin-top: 10px;
+  }
+}
+nav {
+  margin-bottom: 15px;
+  ul {
+    li {
+      display: inline-block;
+      position: relative;
+      a {
+        text-decoration:none;
+        text-transform: lowercase;
+        color: #74858a;
+        font-family: 'cabin', 'helvetica', sans-serif;
+        &:hover {
+          text-decoration: underline;
+          color: #3d4c50;
+        }
+      }
+    }
+  }
+}
+h2.main-text {
+  .development {
+    font-family: 'holtwood one sc', serif;
+    color: #596c72;
+    font-weight: lighter;
+  }
+  .salary {
+    color: #15a29b;
+    font-family: 'quicksand', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    display: block;
+    text-transform: uppercase;
+  }
+  .ampersand {
+    font-family: 'alice', serif;
+    color: #e6cc88;
+    font-weight: lighter;
+    display: inline-block;
+  }
+  .expenses {
+    font-family: 'cabin', sans-serif;
+    color: #97c4de;
+    font-weight: lighter;
+  }
+}
+h3 {
+  font-family: 'cabin', sans-serif;
+  color: #11a49d;
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+}
+p {
+  color: #74858a;
+  font-family: 'cabin', sans-serif;
+  margin-bottom: 5px;
 }
 .hide-text {
 text-indent: 100%;

@@ -17,30 +17,30 @@
     -# Mobile viewport optimized: j.mp/bplateviewport
     -# * disabled because I think the zoomed-in behavior on iOS sucks -- @nathos *
     %meta{:name =>"viewport", :content => "width=device-width,initial-scale=1"}
-    %link{:href => 'http://fonts.googleapis.com/css?family=Ubuntu:300', :rel=> 'stylesheet'}
+    %link{:href => 'http://fonts.googleapis.com/css?family=Quicksand:300|Alice:400|Cabin:700,400|Holtwood+One+SC', :rel => 'stylesheet', :type => 'text/css'}
     %link{:rel => "stylesheet", :href => "/stylesheets/screen.css"}
     %script{:src => "/javascripts/libs/modernizr-2.0.6.min.js"}
     %script{:src => "/javascripts/libs/selectivizr-min.js"}
     
   %body{:class => "#{@bodyclass}"}
-    #content
-      %header
-        %h1.hide-text
-          = @title
-        .logo
-          = link_to 'Incubate!(bang)', '/', :class => 'hide-text'
-        %nav
-          %ul
-            %li= link_to 'Home', '/'
-            %li= link_to 'About', '/'
-            %li= link_to 'Apply', '/'
-            %li= link_to 'Faq', '/'
-            %li= link_to 'Contact', '/'
+    #content-bg
+      #content
+        %header
+          %h1.hide-text
+            = @title
+          .logo
+            = link_to 'Incubate!(bang)', '/', :class => 'hide-text'
+          %nav
+            %ul
+              %li= link_to 'Home', '/'
+              %li= link_to 'About', '/'
+              %li= link_to 'Apply', '/'
+              %li= link_to 'Faq', '/'
+              %li= link_to 'Contact', '/'
         .fixed_content
           = yield
-      .cityscape
     %footer
-        
+    
     -# scripts concatenated and minified
     %script{:defer => "defer", :src => "/javascripts/plugins.js"}
     %script{:defer => "defer", :src => "/javascripts/script.js"}

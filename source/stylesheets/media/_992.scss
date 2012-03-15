@@ -1,8 +1,46 @@
 // 992 styles ----------------------------------------------------------------
 
-#content {
+#content-bg {
   width: 965px;
+}
+.fixed_content {
+  width: 98%;
+  margin: 0 auto;
 }
 .cityscape {
   width: 965px;
+}
+nav {
+  display:inline-block;
+  vertical-align:top;
+  li {
+    font-size: 1.4em;
+    padding: 0 23px;
+  }
+}
+h2.main-text {
+  margin: 25px 0 20px 0;
+  .development {
+    font-size: 3.34em;
+  }
+  .salary {
+    font-size: 4.14em;
+    margin-left: -4px;
+  }
+  .ampersand {
+    font-size: 3.5em;
+    vertical-align: top;
+  }
+  .expenses.first {
+    font-size: 1.52em;
+    border-bottom: 2px solid #acbfc4;
+    vertical-align: top;
+  }
+  .expenses.second {
+    font-size: 1.52em;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    border-bottom: 2px solid #acbfc4;
+  }
 }

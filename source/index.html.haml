@@ -1,15 +1,24 @@
 - @title = "Incubate!(bang) - Startup Accelerator"
 
 .fixed_content
-  %h2
-    $50k in development time
-    $15k in founder salaries
-    up to $15k in operational expenses            additional assistance pursuing further investment
+  %h2.main-text
+    %span.development
+      $50k in development time
+    %span.salary
+      $15k in founder salaries
+    %span.expenses.first
+      up to $15k in operational expenses
+    %span.ampersand
+      &
+    %span.expenses.second
+      additional assistance pursuing further investment
 
   .content-left
     %h3 So what's the deal with this?
     %p incubate!(bang) is a startup accelerator aimed at providing seed funding to a startup in the state of Alabama. We help entrepreneurs get their idea to market and connect with investors and customers. The founders of incubate!(bang) are successful tech entrepreneurs who wish to support Alabama's startup and open source communities.
+    = link_to 'Learn More', 'about.html'
   .content-right 
     %h3 Meet our 2011 Winners
     %p Freshfully sells food that’s grown or produced in Alabama. Consumers can search and browse for local products, see listings of farms and markets, and read articles and reviews of local food options.
-  
+    = link_to 'Learn More', 'freshfully.html'
+    
