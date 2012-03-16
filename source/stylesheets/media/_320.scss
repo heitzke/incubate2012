@@ -24,6 +24,7 @@
 nav {
   border-top:1px solid #cad6de;
   border-bottom:1px solid #cad6de;
+  @include linear-gradient(#f8f8f8 #f1f1f1);
   padding: 10px 0;
   width: 100%;
   margin: 0 auto;
@@ -51,7 +52,7 @@ nav {
       -webkit-box-shadow: 0 1px 2px 0 #eee;
       box-shadow: 0 1px 2px 0 #eee;
         border:1px solid #b5b5b5;
-        padding: 3px 6px;
+        padding: 3px 3px;
         &:hover {
           @include linear-gradient(#fff #f5f6f6);
           text-decoration: none;
@@ -63,11 +64,11 @@ nav {
 h2.main-text {
   margin: 0 0 30px 0;
   .development {
-    font-size: 1.6em;
+    font-size: 1em;
     @include text-shadow( 1px 1px 1px #ddd);
   }
   .salary {
-    font-size: 1.4em;
+    font-size: 1.25em;
     margin-left: -4px;
     @include text-shadow( 1px 1px 1px #ddd);
     
@@ -107,5 +108,8 @@ h3 {
 
 a {
   color: #11a49d;
-  font-family: 'cabin'
+  font-family: 'cabin';
+  &:hover {
+    color: #03746f;
+  }
 }

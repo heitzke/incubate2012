@@ -223,6 +223,11 @@ header, .fixed_content {
   z-index: 5;
   position:relative;
 }
+.fixed_content {
+  p {
+    margin-bottom: 15px;
+  }
+}
 .push {
   height: 191px;
 }
@@ -248,6 +253,10 @@ footer {
   width: 306px;
   height: 70px;
   margin-top: 10px;
+  position: relative;
+  &:active {
+    top: 1px;
+    }
   }
 }
 nav {
@@ -262,8 +271,12 @@ nav {
         text-transform: lowercase;
         color: #74858a;
         font-family: 'cabin', 'helvetica', sans-serif;
+        position: relative;
         &:hover {
           color: #3d4c50;
+        }
+        &:active {
+          top: 1px;
         }
       }
     }
@@ -311,6 +324,11 @@ h3 {
   margin: 0 0 5px 0;
   font-size: 1.3em;
   font-weight: lighter;
+}
+h4 {
+  margin: 5px 0 10px 0;
+  color: #596C72;
+  font-size: 1.4em;
 }
 p {
   color: #74858a;

@@ -8,88 +8,79 @@
   <head>
     <meta charset='utf-8' />
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-    <title>Portfolio & Overview of Mike Heitzke</title>
+    <title>Incubate!(bang) - Startup Accelerator</title>
     <meta content='' name='description' />
     <meta content='' name='author' />
+    <meta content='width=device-width,initial-scale=1' name='viewport' />
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300|Alice:400|Cabin:700,400|Holtwood+One+SC' rel='stylesheet' type='text/css' />
     <link href='/stylesheets/screen.css' rel='stylesheet' />
-    <link href='/stylesheets/base.css' rel='stylesheet' />
     <script src='/javascripts/libs/modernizr-2.0.6.min.js'></script>
+    <script src='/javascripts/libs/selectivizr-min.js'></script>
   </head>
   <body class=''>
-    <div class='container'>
-      <header>
-        <h1>Portfolio & Overview of Mike Heitzke</h1>
-        <div id='navigation'>
-          <ul>
-            <li>
-              <a href='/about.html'></a>
-            </li>
-            <li>
-              <a href='/work.html'></a>
-            </li>
-          </ul>
-        </div>
-      </header>
-      <div id='main-content' role='main'>
-        <h3>
-          Haml test
-        </h3>
-        <div class='intro'>
-          <h2 id='yo_dawg_this_project_is_bootstrapped'>Yo dawg, this project is bootstrapped!</h2>
-        </div>
-        <div class='features'>
-          <div class='views-layouts'>
-            <h3 id='views__layouts'>Views &amp; Layouts</h3>
-            
-            <p>Your source files are stored in the <kbd>source</kbd> folder. The main layout file for this project is <kbd>source/layout.haml</kbd>.</p>
+    <div id='content-bg'>
+      <div id='content'>
+        <header>
+          <h1 class='hide-text'>
+            Incubate!(bang) - Startup Accelerator
+          </h1>
+          <div class='logo'>
+            <a class="hide-text" href="/">Incubate!(bang)</a>
           </div>
-          <div class='stylesheets-sass-compass'>
-            <h3 id='stylesheets_sass__compass'>Stylesheets, Sass &#38; Compass</h3>
-            
-            <p>This project is pre-configured for <a href='http://sass-lang.com'>Sass</a> and <a href='http://compass-style.org'>Compass</a>. Store your <kbd>sass</kbd> and <kbd>scss</kbd> files in the <kbd>source/stylesheets</kbd> directory.</p>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="apply.html">Apply</a></li>
+              <li><a href="faq.html">Faq</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class='fixed_content'>
+          <div class='fixed_content'>
+            <h2 class='main-text'>
+              <span class='development'>
+                $50k in development time
+              </span>
+              <span class='salary'>
+                $15k in founder salaries
+              </span>
+              <span class='expenses first'>
+                up to $15k in operational expenses
+              </span>
+              <span class='ampersand'>
+                &
+              </span>
+              <span class='expenses second'>
+                additional assistance pursuing further investment
+              </span>
+            </h2>
+            <div class='content-left'>
+              <h3>So what's the deal with this?</h3>
+              <p>incubate!(bang) is a startup accelerator aimed at providing seed funding to a startup in the state of Alabama. We help entrepreneurs get their idea to market and connect with investors and customers. The founders of incubate!(bang) are successful tech entrepreneurs who wish to support Alabama's startup and open source communities.</p>
+              <a href="about.html">Learn More</a>
+            </div>
+            <div class='content-right'>
+              <h3>Meet our 2011 Winners</h3>
+              <a href='freshfully.html'>
+                <img src="/images/freshfully.png" />
+              </a>
+              <p>Freshfully sells food that’s grown or produced in Alabama. Consumers can search and browse for local products, see listings of farms and markets, and read articles and reviews of local food options.</p>
+              <a href="freshfully.html">Learn More</a>
+            </div>
           </div>
-          <div class='compass-plugins'>
-            <h3 id='compass_plugins'>Compass Plugins</h3>
-            
-            <p>Middleman Bootstrap includes support for <a href='http://susy.oddbird.net/'>Susy</a> by default, with your choice of fixed-width or Responsive Grid layouts.</p>
-            
-            <p>Support for other grid systems like 960.gs and Blueprint as still available, but are deprecated.</p>
-          </div>
-        </div>
-        <div class='moreinfo'>
-          <h3 id='for_more_info'>For More Info…</h3>
-          
-          <ul>
-          <li>on the Susy grid system, check out <a href='http://susy.oddbird.net/'>the official site</a></li>
-          
-          <li>on Responsive Web Design, check out <a href='http://www.abookapart.com/products/responsive-web-design'>this book by Ethan Marcotte</a> and the <a href='http://www.stuffandnonsense.co.uk/projects/320andup/'>320 and up</a> source code.</li>
-          </ul>
         </div>
       </div>
-      <footer>
-        <p>&copy; 2011-2012 MiddlemanBoostrapUser</p>
-      </footer>
     </div>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
-    <script type='text/javascript'>
-      //<![CDATA[
-        window.jQuery || document.write("<script src='/javascripts/libs/jquery-1.7.1.min.js'>\x3C/script>")
-      //]]>
-    </script>
+    <footer></footer>
     <script defer='defer' src='/javascripts/plugins.js'></script>
     <script defer='defer' src='/javascripts/script.js'></script>
+    <script src='/javascripts/libs/jquery-1.6.2.min.js'></script>
     <!-- :javascript -->
     <!-- window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']]; -->
     <!-- Modernizr.load({ -->
     <!-- load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js' -->
     <!-- }); -->
-    <!--[if lt IE 7 ]>
-      <script defer='defer' src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js'></script>
-      <script type='text/javascript'>
-        //<![CDATA[
-          window.attachEvent("onload",function(){CFInstall.check({mode:'overlay'})})
-        //]]>
-      </script>
-    <![endif]-->
   </body>
 </html>

@@ -1,0 +1,1 @@
+throw Error("Sprockets::FileNotFound: couldn't find file 'highlight_js/highlight'\n  (in /Users/Heitzke/rails/incubate2012/source/javascripts/application.js:1)")
