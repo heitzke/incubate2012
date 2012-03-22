@@ -499,9 +499,3 @@ html.ie8 h2.main-text {
   html.ie8 h2.main-text .salary {
     font-size: 3.9em;
     margin-left: -4px; }
-
-html.no-js body h2.main-text .development {
-  font-size: 2em; }
-html.no-js body h2.main-text .salary {
-  font-size: 2em;
-  margin-left: -4px; }
