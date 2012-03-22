@@ -1,30 +1,24 @@
 @media only screen and (min-width: 320px) {
-  /* line 3, media/_320.scss */
   #content-bg {
     width: 98%; }
 
-  /* line 6, media/_320.scss */
   .fixed_content {
     width: 95%;
     padding-left: 2%; }
 
-  /* line 10, media/_320.scss */
   .logo {
     width: 306px;
     margin: 0 auto;
     display: block; }
-    /* line 14, media/_320.scss */
     .logo a {
       width: 306px;
       margin: 0 auto;
       height: 70px; }
 
-  /* line 20, media/_320.scss */
   .cityscape {
     width: 100%;
     overflow: hidden; }
 
-  /* line 24, media/_320.scss */
   nav {
     border-top: 1px solid #cad6de;
     border-bottom: 1px solid #cad6de;
@@ -37,15 +31,12 @@
     padding: 10px 0;
     width: 100%;
     margin: 0 auto; }
-    /* line 31, media/_320.scss */
     nav ul {
       text-align: center; }
-      /* line 33, media/_320.scss */
       nav ul li {
         margin: 5px 0;
         font-size: 1.2em;
         padding: 0; }
-        /* line 37, media/_320.scss */
         nav ul li a {
           background: #ffffff;
           background: -moz-linear-gradient(top, white 0%, #f5f6f6 7%, #e4e4e3 100%);
@@ -65,7 +56,6 @@
           box-shadow: 0 1px 2px 0 #eee;
           border: 1px solid #b5b5b5;
           padding: 3px 3px; }
-          /* line 56, media/_320.scss */
           nav ul li a:hover {
             background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f5f6f6));
             background-image: -webkit-linear-gradient(top, #ffffff, #f5f6f6);
@@ -75,28 +65,22 @@
             background-image: linear-gradient(top, #ffffff, #f5f6f6);
             text-decoration: none; }
 
-  /* line 64, media/_320.scss */
   h2.main-text {
     margin: 0 0 30px 0; }
-    /* line 66, media/_320.scss */
     h2.main-text .development {
       font-size: 1em;
       text-shadow: 1px 1px 1px #dddddd; }
-    /* line 70, media/_320.scss */
     h2.main-text .salary {
       font-size: 1.25em;
       margin-left: -4px;
       text-shadow: 1px 1px 1px #dddddd; }
-    /* line 76, media/_320.scss */
     h2.main-text .ampersand {
       font-size: 2.7em;
       vertical-align: top;
       text-shadow: 1px 1px 1px #dddddd; }
-    /* line 81, media/_320.scss */
     h2.main-text .expenses.first {
       font-size: 1.2em;
       text-shadow: 1px 1px 1px #dddddd; }
-    /* line 85, media/_320.scss */
     h2.main-text .expenses.second {
       font-size: 1.2em;
       display: inline-block;
@@ -104,7 +88,6 @@
       width: 85%;
       text-shadow: 1px 1px 1px #dddddd; }
 
-  /* line 94, media/_320.scss */
   h3 {
     font-family: 'cabin', sans-serif;
     color: #11a49d;
@@ -112,72 +95,55 @@
     font-weight: lighter;
     font-size: 2em; }
 
-  /* line 102, media/_320.scss */
   .content-left {
     margin: 0 0 35px 0; }
 
-  /* line 109, media/_320.scss */
   a {
     color: #11a49d;
     font-family: 'cabin'; }
-    /* line 112, media/_320.scss */
     a:hover {
       color: #03746f; } }
 @media only screen and (min-width: 480px) {
-  /* line 3, media/_480.scss */
   #content-bg {
     width: 480px; }
 
-  /* line 6, media/_480.scss */
   .cityscape {
     width: 480px; }
 
-  /* line 12, media/_480.scss */
   nav ul li {
     padding: 4px 10px;
     margin: 5px 0; }
-    /* line 15, media/_480.scss */
     nav ul li a {
       padding: 3px 10px; }
 
-  /* line 22, media/_480.scss */
   h2.main-text {
     margin: 0 0 20px 0; }
-    /* line 24, media/_480.scss */
     h2.main-text .development {
       font-size: 1.53em; }
-    /* line 27, media/_480.scss */
     h2.main-text .salary {
       font-size: 1.9em;
       margin-left: -4px; }
-    /* line 31, media/_480.scss */
     h2.main-text .ampersand {
       font-size: 3.5em;
       vertical-align: top; }
-    /* line 37, media/_480.scss */
     h2.main-text .expenses.first {
       font-size: 1.84em; }
-    /* line 40, media/_480.scss */
     h2.main-text .expenses.second {
       font-size: 1.5em;
       display: inline-block;
       vertical-align: top;
       width: 87%; } }
 @media only screen and (min-width: 600px) {
-  /* line 3, media/_600.scss */
   #content-bg {
     width: 600px; }
 
-  /* line 6, media/_600.scss */
   .logo {
     margin-left: 20px;
     display: inline-block; }
 
-  /* line 11, media/_600.scss */
   .cityscape {
     width: 600px; }
 
-  /* line 15, media/_600.scss */
   nav {
     background: none;
     border: none;
@@ -185,44 +151,34 @@
     width: auto;
     float: right;
     width: 261px; }
-    /* line 23, media/_600.scss */
     nav ul li {
       padding: 0 4px 4px 4px; }
-      /* line 25, media/_600.scss */
       nav ul li a {
         background: none;
         border: none;
         box-shadow: none; }
-        /* line 29, media/_600.scss */
         nav ul li a:hover {
           background: none;
           text-decoration: underline; }
 
-  /* line 37, media/_600.scss */
   h2.main-text {
     margin: 25px 0 20px 0; }
-    /* line 39, media/_600.scss */
     h2.main-text .development {
       font-size: 1.94em; }
-    /* line 42, media/_600.scss */
     h2.main-text .salary {
       font-size: 2.4em;
       margin-left: -4px; }
-    /* line 46, media/_600.scss */
     h2.main-text .ampersand {
       font-size: 4em;
       vertical-align: top; }
-    /* line 52, media/_600.scss */
     h2.main-text .expenses.first {
       font-size: 2.3em; }
-    /* line 55, media/_600.scss */
     h2.main-text .expenses.second {
       font-size: 1.9em;
       display: inline-block;
       vertical-align: top;
       width: 88%; }
 
-  /* line 62, media/_600.scss */
   h3 {
     font-family: 'cabin', sans-serif;
     color: #11a49d;
@@ -230,50 +186,39 @@
     font-size: 1.5em;
     font-weight: lighter; } }
 @media only screen and (min-width: 768px) {
-  /* line 3, media/_768.scss */
   #content-bg {
     width: 768px; }
 
-  /* line 6, media/_768.scss */
   .fixed_content {
     width: 97%;
     padding-left: 0;
     margin: 0 auto; }
 
-  /* line 11, media/_768.scss */
   .cityscape {
     width: 768px; }
 
-  /* line 15, media/_768.scss */
   nav {
     width: auto;
     margin: 15px 0 0 0; }
-    /* line 18, media/_768.scss */
     nav li {
       font-size: 1.3em; }
 
-  /* line 22, media/_768.scss */
   h2.main-text {
     margin: 25px 0 20px 0; }
-    /* line 24, media/_768.scss */
     h2.main-text .development {
       font-size: 2.56em; }
-    /* line 27, media/_768.scss */
     h2.main-text .salary {
       font-size: 3.2em;
       margin-left: -4px; }
-    /* line 31, media/_768.scss */
     h2.main-text .ampersand {
       font-size: 2.5em;
       vertical-align: top; }
-    /* line 35, media/_768.scss */
     h2.main-text .expenses.first {
       font-size: 1.2em;
       border-bottom: 2px solid #acbfc4;
       vertical-align: top;
       padding-bottom: 6px;
       display: inline-block; }
-    /* line 42, media/_768.scss */
     h2.main-text .expenses.second {
       font-size: 1.2em;
       display: inline-block;
@@ -282,121 +227,54 @@
       border-bottom: 2px solid #acbfc4;
       padding-bottom: 6px; }
 
-  /* line 52, media/_768.scss */
   .content-left {
     display: inline-block;
     width: 48%;
     vertical-align: top; }
 
-  /* line 58, media/_768.scss */
   .content-right {
     display: inline-block;
     width: 48%;
     vertical-align: top;
     margin-left: 2%; } }
 @media only screen and (min-width: 992px) {
-  /* line 3, media/_992.scss */
   #content-bg {
     width: 965px; }
 
-  /* line 6, media/_992.scss */
   .fixed_content {
     width: 98%;
     margin: 0 auto; }
 
-  /* line 10, media/_992.scss */
   .cityscape {
     width: 965px; }
 
-  /* line 13, media/_992.scss */
   nav {
     display: inline-block;
     vertical-align: top; }
-    /* line 16, media/_992.scss */
     nav li {
       font-size: 1.4em;
       padding: 0 23px; }
 
-  /* line 21, media/_992.scss */
   h2.main-text {
     margin: 25px 0 20px 0; }
-    /* line 23, media/_992.scss */
     h2.main-text .development {
       font-size: 3.34em; }
-    /* line 26, media/_992.scss */
     h2.main-text .salary {
       font-size: 4.14em;
       margin-left: -4px; }
-    /* line 30, media/_992.scss */
     h2.main-text .ampersand {
       font-size: 3.5em;
       vertical-align: top; }
-    /* line 34, media/_992.scss */
     h2.main-text .expenses.first {
       font-size: 1.52em;
       border-bottom: 2px solid #acbfc4;
       vertical-align: top; }
-    /* line 39, media/_992.scss */
     h2.main-text .expenses.second {
       font-size: 1.52em;
       display: inline-block;
       vertical-align: top;
       width: auto;
       border-bottom: 2px solid #acbfc4; } }
-@media print {
-  /* line 8, h5bp/_print.sass */
-  * {
-    background: transparent !important;
-    color: black !important;
-    text-shadow: none !important;
-    filter: none !important;
-    -ms-filter: none !important; }
-
-  /* line 14, h5bp/_print.sass */
-  a, a:visited {
-    text-decoration: underline; }
-
-  /* line 16, h5bp/_print.sass */
-  a[href]:after {
-    content: " (" attr(href) ")"; }
-
-  /* line 18, h5bp/_print.sass */
-  abbr[title]:after {
-    content: " (" attr(title) ")"; }
-
-  /* line 21, h5bp/_print.sass */
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
-    content: ""; }
-
-  /* line 23, h5bp/_print.sass */
-  pre, blockquote {
-    border: 1px solid #999999;
-    page-break-inside: avoid; }
-
-  /* line 26, h5bp/_print.sass */
-  thead {
-    display: table-header-group; }
-
-  /* line 29, h5bp/_print.sass */
-  tr, img {
-    page-break-inside: avoid; }
-
-  /* line 31, h5bp/_print.sass */
-  img {
-    max-width: 100% !important; }
-
-  @page {
-    margin: 0.5cm; }
-
-  /* line 35, h5bp/_print.sass */
-  p, h2, h3 {
-    orphans: 3;
-    widows: 3; }
-
-  /* line 38, h5bp/_print.sass */
-  h2, h3 {
-    page-break-after: avoid; } }
-/* line 159, screen.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -413,46 +291,37 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   font-size: 100%;
   background: transparent; }
 
-/* line 168, screen.scss */
 body {
   line-height: 1;
   color: black;
   background: white; }
 
-/* line 169, screen.scss */
 a img {
   border: none; }
 
-/* line 170, screen.scss */
 ins {
   text-decoration: none; }
 
-/* line 171, screen.scss */
 del {
   text-decoration: line-through; }
 
-/* line 173, screen.scss */
 :focus {
   -moz-outline: 0;
   outline: 0;
   outline-offset: 0; }
 
 /* tables still need 'cellspacing="0"' in the markup */
-/* line 180, screen.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 181, screen.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal; }
 
-/* line 183, screen.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 185, screen.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -465,12 +334,10 @@ q:before, q:after {
   font-weight: normal;
   font-style: normal; }
 
-/* line 200, screen.scss */
 html {
   height: 100%;
   width: 100%;
   background: #fff; }
-  /* line 204, screen.scss */
   html body {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d5e3ea), color-stop(100%, #f3f6f7));
     background-image: -webkit-linear-gradient(#d5e3ea, #f3f6f7);
@@ -481,7 +348,6 @@ html {
     height: auto;
     width: 100%;
     font-family: sans-serif; }
-    /* line 209, screen.scss */
     html body #content-bg {
       background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfe9ee), color-stop(100%, #f5f7f8));
       background-image: -webkit-linear-gradient(#dfe9ee, #f5f7f8);
@@ -492,25 +358,20 @@ html {
       margin: 0 auto;
       height: auto !important;
       height: 100%; }
-      /* line 214, screen.scss */
       html body #content-bg #content {
         padding-bottom: 191px;
         background: url(/images/cityscape.png) bottom center no-repeat; }
 
-/* line 222, screen.scss */
 header, .fixed_content {
   z-index: 5;
   position: relative; }
 
-/* line 227, screen.scss */
 .fixed_content p {
   margin-bottom: 15px; }
 
-/* line 231, screen.scss */
 .push {
   height: 191px; }
 
-/* line 234, screen.scss */
 .cityscape {
   background: url(/images/cityscape.png) bottom center no-repeat;
   bottom: 54px;
@@ -518,7 +379,6 @@ header, .fixed_content {
   height: 191px;
   z-index: 1; }
 
-/* line 241, screen.scss */
 footer {
   display: block;
   height: 58px;
@@ -526,7 +386,6 @@ footer {
   background: url(/images/footer_striped.jpg) bottom center no-repeat;
   background-color: #fff; }
 
-/* line 250, screen.scss */
 .logo a {
   display: inline-block;
   background: url(/images/logo.png) 0 0 no-repeat;
@@ -534,43 +393,33 @@ footer {
   height: 70px;
   margin-top: 10px;
   position: relative; }
-  /* line 257, screen.scss */
   .logo a:active {
     top: 1px; }
 
-/* line 262, screen.scss */
 nav {
   margin-bottom: 15px; }
-  /* line 264, screen.scss */
   nav ul {
     margin-bottom: 0; }
-    /* line 266, screen.scss */
     nav ul li {
       display: inline-block;
       position: relative; }
-      /* line 269, screen.scss */
       nav ul li a {
         text-decoration: none;
         text-transform: lowercase;
         color: #74858a;
         font-family: 'cabin', 'helvetica', sans-serif;
         position: relative; }
-        /* line 275, screen.scss */
         nav ul li a:hover {
           color: #3d4c50; }
-        /* line 278, screen.scss */
         nav ul li a:active {
           top: 1px; }
 
-/* line 285, screen.scss */
 h2.main-text {
   word-wrap: break-word; }
-  /* line 287, screen.scss */
   h2.main-text .development {
     font-family: 'holtwood one sc', serif;
     color: #596c72;
     font-weight: lighter; }
-  /* line 292, screen.scss */
   h2.main-text .salary {
     color: #15a29b;
     font-family: 'quicksand', sans-serif;
@@ -578,30 +427,25 @@ h2.main-text {
     font-weight: lighter;
     display: block;
     text-transform: uppercase; }
-  /* line 300, screen.scss */
   h2.main-text .ampersand {
     font-family: 'alice', serif;
     color: #e6cc88;
     font-weight: lighter;
     display: inline-block; }
-  /* line 306, screen.scss */
   h2.main-text .expenses {
     font-family: 'cabin', sans-serif;
     color: #97c4de;
     font-weight: lighter; }
 
-/* line 312, screen.scss */
 h2.title {
   color: #15a29b;
   font-size: 2em;
   font-family: 'cabin', sans-serif;
   margin: 0 0 3% 0; }
 
-/* line 318, screen.scss */
 img {
   max-width: 100%; }
 
-/* line 321, screen.scss */
 h3 {
   font-family: 'cabin', sans-serif;
   color: #11a49d;
@@ -609,46 +453,37 @@ h3 {
   font-size: 1.3em;
   font-weight: lighter; }
 
-/* line 328, screen.scss */
 h4 {
   margin: 5px 0 10px 0;
   color: #596C72;
   font-size: 1.4em; }
 
-/* line 333, screen.scss */
 p {
   color: #74858a;
   font-family: 'cabin', sans-serif;
   margin-bottom: 5px; }
 
-/* line 338, screen.scss */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 344, screen.scss */
 ul {
   margin: 0 0 10px 0;
   padding: 0;
   list-style: none; }
-  /* line 348, screen.scss */
   ul li {
     margin: 5px 0 10px 0;
     color: #002B36;
     font-size: 1.3em; }
-    /* line 352, screen.scss */
     ul li ul {
       list-style: disc;
       color: #74858A; }
-      /* line 355, screen.scss */
       ul li ul li {
         margin-left: 25px;
         color: #74858A;
         font-size: .8em; }
-        /* line 360, screen.scss */
         ul li ul li ul {
           list-style: disc; }
-          /* line 362, screen.scss */
           ul li ul li ul li {
             font-size: .9em; }

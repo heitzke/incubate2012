@@ -5,7 +5,6 @@
 @import "compass";
 @import "compass/css3";
 @import "responsive";
-@import "h5bp/print";
 
 // Based on [Eric Meyer's reset 2.0](http://meyerweb.com/eric/tools/css/reset/index.html)
 // Global reset rules.
@@ -366,4 +365,7 @@ ul {
       }
     }
   }
+}
+.test {
+
 }
