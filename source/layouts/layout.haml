@@ -3,7 +3,6 @@
 /[if lt IE 7 ] <html class="no-js ie6" lang="en">
 /[if IE 7 ]    <html class="no-js ie7" lang="en">
 /[if IE 8 ]    <html class="no-js ie8" lang="en">
--# Consider adding an manifest.appcache: h5bp.com/d/Offline
 <!--[if gt IE 8]><!-->
 %html{:class => "no-js", :lang => "en"}
   <!--<![endif]-->
@@ -13,15 +12,14 @@
     %title= @title
     %meta{:name => "description", :content => ""}
     %meta{:name => "author", :content => ""}
-
     -# Mobile viewport optimized: j.mp/bplateviewport
     -# * disabled because I think the zoomed-in behavior on iOS sucks -- @nathos *
     %meta{:name =>"viewport", :content => "width=device-width,initial-scale=1"}
     %link{:href => 'http://fonts.googleapis.com/css?family=Quicksand:300|Alice:400|Cabin:700,400|Holtwood+One+SC', :rel => 'stylesheet', :type => 'text/css'}
     %link{:rel => "stylesheet", :href => "/stylesheets/screen.css"}
     %script{:src => "/javascripts/libs/modernizr-2.0.6.min.js"}
+    %script{:src => "/javascripts/libs/respond.min.js"}
     %script{:src => "/javascripts/libs/selectivizr-min.js"}
-    
   %body{:class => "#{@bodyclass}"}
     #content-bg
       #content
@@ -40,7 +38,6 @@
         .fixed_content
           = yield
     %footer
-    -# scripts concatenated and minified
     %script{:defer => "defer", :src => "/javascripts/plugins.js"}
     %script{:defer => "defer", :src => "/javascripts/script.js"}
     %script{:src => "/javascripts/libs/jquery-1.6.2.min.js"}
