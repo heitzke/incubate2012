@@ -25,6 +25,7 @@ nav {
   border-top:1px solid #cad6de;
   border-bottom:1px solid #cad6de;
   @include linear-gradient(#f8f8f8 #f1f1f1);
+  background-color: #f8f8f8;
   padding: 10px 0;
   width: 100%;
   margin: 0 auto;
@@ -55,6 +56,7 @@ nav {
         padding: 3px 3px;
         &:hover {
           @include linear-gradient(#fff #f5f6f6);
+          background-color: #fff;
           text-decoration: none;
         }
       }

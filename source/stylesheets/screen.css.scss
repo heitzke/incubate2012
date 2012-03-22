@@ -202,18 +202,19 @@ html {
   background: #fff;
   body {
     @include linear-gradient(#f3f6f7, #d5e3ea);
+    background-color: #F3F6F7;
     height: auto;
     width: 100%;
     font-family: sans-serif;
     #content-bg {
       @include linear-gradient(#f5f7f8, #dfe9ee);
+      background-color: #f5f7f8;
       margin: 0 auto;
       height: auto !important;
       height: 100%;
       #content {
         padding-bottom: 191px;
         background:url(/images/cityscape.png) bottom center no-repeat;
-        
       }
     }
   }
@@ -366,6 +367,29 @@ ul {
     }
   }
 }
-.test {
-
+html.ie8 {
+  h2.main-text {
+    margin: 25px 0 20px 0;
+    .development {
+      font-size: 3.34em;
+    }
+    .salary {
+      font-size: 3.9em;
+      margin-left: -4px;
+    }
+  }
+}
+html.no-js {
+  body {
+    h2.main-text {
+      .development {
+        font-size: 2em;
+      }
+      
+      .salary {
+        font-size: 2em;
+        margin-left: -4px;
+      }
+    }
+  }
 }
