@@ -19,7 +19,6 @@
     %link{:rel => "stylesheet", :href => "/stylesheets/screen.css"}
     %script{:src => "/javascripts/libs/modernizr-2.0.6.min.js"}
     %script{:src => "/javascripts/libs/respond.min.js"}
-    %script{:src => "/javascripts/libs/selectivizr-min.js"}
   %body{:class => "#{@bodyclass}"}
     #content-bg
       #content
@@ -31,10 +30,10 @@
           %nav
             %ul
               %li= link_to 'Home', '/'
-              %li= link_to 'About', 'about.html'
-              %li= link_to 'Apply', 'apply.html'
-              %li= link_to 'Faq', 'faq.html'
-              %li= link_to 'Contact', 'contact.html'
+              %li= link_to 'About', '/about.html'
+              %li= link_to 'Apply', '/apply.html'
+              %li= link_to 'Faq', '/faq.html'
+              %li= link_to 'Contact', '/contact.html'
         .fixed_content
           = yield
     %footer
