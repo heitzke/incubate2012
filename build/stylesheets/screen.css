@@ -385,6 +385,8 @@ html {
       html body #content-bg #content {
         padding-bottom: 191px;
         background: url(/images/cityscape.png) bottom center no-repeat; }
+    html body #content-bg.apply-page {
+      background: #fff; }
 
 header, .fixed_content {
   z-index: 5;
