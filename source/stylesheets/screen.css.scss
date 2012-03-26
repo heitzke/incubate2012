@@ -217,6 +217,9 @@ html {
         background:url(/images/cityscape.png) bottom center no-repeat;
       }
     }
+    #content-bg.apply-page {
+      background: #fff;
+    }
   }
 }
 header, .fixed_content {
