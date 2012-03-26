@@ -104,7 +104,10 @@
     color: #11a49d;
     font-family: 'cabin'; }
     a:hover {
-      color: #03746f; } }
+      color: #03746f; }
+
+  footer .fixed_content {
+    width: 95%; } }
 @media only screen and (min-width: 480px) {
   #content-bg {
     width: 480px; }
@@ -134,7 +137,12 @@
       font-size: 1.5em;
       display: inline-block;
       vertical-align: top;
-      width: 87%; } }
+      width: 87%; }
+
+  footer .fixed_content {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0; } }
 @media only screen and (min-width: 600px) {
   #content-bg {
     width: 600px; }
@@ -186,7 +194,11 @@
     color: #11a49d;
     margin: 0 0 5px 0;
     font-size: 1.5em;
-    font-weight: lighter; } }
+    font-weight: lighter; }
+
+  footer .fixed_content {
+    width: 600px;
+    margin: 0 auto; } }
 @media only screen and (min-width: 768px) {
   #content-bg {
     width: 768px; }
@@ -238,7 +250,11 @@
     display: inline-block;
     width: 48%;
     vertical-align: top;
-    margin-left: 2%; } }
+    margin-left: 2%; }
+
+  footer .fixed_content {
+    width: 768px;
+    margin: 0 auto; } }
 @media only screen and (min-width: 992px) {
   #content-bg {
     width: 965px; }
@@ -276,7 +292,11 @@
       display: inline-block;
       vertical-align: top;
       width: auto;
-      border-bottom: 2px solid #acbfc4; } }
+      border-bottom: 2px solid #acbfc4; }
+
+  footer .fixed_content {
+    width: 965px;
+    margin: 0 auto; } }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -389,6 +409,18 @@ footer {
   width: 100%;
   background: url(/images/footer_striped.jpg) bottom center no-repeat;
   background-color: #fff; }
+  footer p {
+    display: inline-block; }
+  footer .twitter-share-button {
+    margin: 10px 0 0 17px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden; }
+  footer .fb-like {
+    margin-top: 10px; }
+
+#fb-root {
+  display: none; }
 
 .logo a {
   display: inline-block;
