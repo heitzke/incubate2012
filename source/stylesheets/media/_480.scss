@@ -18,7 +18,9 @@ nav {
     }
   }
 }
-
+.apply_button {
+  display: none;
+}
 h2.main-text {
   margin: 0 0 20px 0;
   .development {
@@ -49,5 +51,11 @@ footer {
     width: 480px;
     margin: 0 auto;
     padding: 0;
+    .twitter-share-button {
+      margin: 10px 0 0 17px;
+    }
+    .fb-like {
+      width: auto;
+    }
   }
 }

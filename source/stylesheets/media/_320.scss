@@ -1,7 +1,7 @@
 // 320 styles ----------------------------------------------------------------
 
 #content-bg {
-  width: 98%;
+  width: 100%;
 }
 .fixed_content {
   width: 95%;
@@ -64,7 +64,7 @@ nav {
   }
 }
 h2.main-text {
-  margin: 0 0 30px 0;
+  margin: 0 0 15px 0;
   .development {
     font-size: 1em;
     @include text-shadow( 1px 1px 1px #ddd);
@@ -83,6 +83,7 @@ h2.main-text {
   .expenses.first {
     font-size:1.2em;
     @include text-shadow( 1px 1px 1px #ddd);
+    display: block;
   }
   .expenses.second {
     font-size:1.2em;
@@ -92,7 +93,27 @@ h2.main-text {
     @include text-shadow( 1px 1px 1px #ddd);
   }
 }
-
+.apply_button {
+  display: block;
+  a {
+    background-color: #32a09b;
+    @include linear-gradient(#35b6b0 #32a09b);
+    @include border-radius(4px);
+    color: #fff;
+    border: 2px solid #56d2e5;
+    padding: 9px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    &:hover {
+      background-color: #32a09b;
+      @include linear-gradient(#32a09b #32a09b);
+      color: #fff;
+    }
+  }
+}
 h3 {
   font-family: 'cabin', sans-serif;
   color: #11a49d;
@@ -118,5 +139,11 @@ a {
 footer {
   .fixed_content {
     width: 95%;
+    .twitter-share-button {
+      margin: 10px 0 0 0;
+    }
+    .fb-like {
+      width: 80px;
+    }
   }
 }
